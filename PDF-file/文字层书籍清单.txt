@@ -1,0 +1,55 @@
+文字层（非扫描）书籍清单  共 45 本  （2026-10-24）
+
+说明：这些 PDF 自带可提取的文字层，EPUB 直接由文字重排生成，无 OCR 识别误差。
+最初按 pdftotext 判定为 42 本；改用 PyMuPDF 检测后，多识别出 3 本可直取文字的书
+（如 git/GitHub入门与实践），因此实际共 45 本，均已转换完成。
+
+序号  状态          页数  路径
+----------------------------------------------------------------------------------------------------
+1    已完成         78  algorithms/算法心得：高效算法的奥秘（第2版）.pdf
+2    已完成        232  c/C程序设计语言（第2版）.pdf
+3    已完成        530  clean-code/代码大全.pdf
+4    已完成        360  clean-code/修改代码的艺术.pdf
+5    已完成        199  clean-code/程序设计实践.pdf
+6    已完成        423  clean-code/程序设计方法.pdf
+7    已完成       1616  computer-system/深入理解计算机系统.pdf
+8    已完成        306  computer-system/计算的本质：深入剖析程序和计算机.pdf
+9    已完成        370  docker/Docker从入门到实践（第3版）.pdf
+10   已完成        286  git/GitHub入门与实践.pdf
+11   已完成        236  git/ProGit中文版.pdf
+12   已完成        265  golang/Go学习笔记（第4版）.pdf
+13   已完成         66  golang/Go学习笔记（第6版下卷）.pdf
+14   已完成        194  golang/Go源码剖析.pdf
+15   已完成        240  golang/Go语言实战.pdf
+16   已完成        389  golang/go程序设计语言.pdf
+17   已完成        716  http/HTTP权威指南.pdf
+18   已完成        331  http/Web性能权威指南.pdf
+19   已完成         61  javascript/JavaScript设计模式与开发实践.pdf
+20   已完成        150  javascript/javascript面向对象编程.pdf
+21   已完成        213  javascript/你不知道的JavaScript（上卷）.pdf
+22   已完成        286  javascript/你不知道的JavaScript（下卷）.pdf
+23   已完成        382  javascript/你不知道的JavaScript（中卷）.pdf
+24   已完成         57  javascript/基于MVC的JavaScript_Web富应用开发.pdf
+25   已完成       1058  linux/深入Linux内核架构.pdf
+26   已完成         75  linux/跟我一起写makefile.pdf
+27   已完成         91  mongodb/MongoDB实战.pdf
+28   已完成        145  mongodb/深入学习MongoDB.pdf
+29   已完成        252  mysql/MySQL必知必会.pdf
+30   已完成        302  mysql/MySQL性能调优与架构设计.pdf
+31   已完成       1331  nginx/深入理解Nginx：模块开发与架构解析（第2版）.pdf
+32   已完成        360  nodejs/Node.js实战.pdf
+33   已完成        185  nodejs/Node.js开发指南.pdf
+34   已完成        281  nodejs/Node与Express开发.pdf
+35   已完成        193  nodejs/Node即学即用.pdf
+36   已完成        353  nodejs/深入浅出Node.js.pdf
+37   已完成        261  others/七周七语言：理解多种编程范型.pdf
+38   已完成        145  others/如何阅读一本书.pdf
+39   已完成        702  python/Python_Cookbook.pdf
+40   已完成        482  python/Python编程：从入门到实践.pdf
+41   已完成        925  python/python核心编程.pdf
+42   已完成        890  redis/Redis开发与运维.pdf
+43   已完成        423  tcp/TCP_IP详解卷1：协议.pdf
+44   已完成        872  tcp/TCP_IP详解卷2：实现.pdf
+45   已完成        250  tcp/TCP_IP详解卷3：TCP事务协议，HTTP，NNTP和UNIX域协议.pdf
+
+输出位置：各自 PDF 所在目录的 epub/ 子目录，文件名与 PDF 相同（.epub）。
